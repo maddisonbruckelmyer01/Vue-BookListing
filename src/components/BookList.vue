@@ -5,19 +5,19 @@
 </template>
 
 <script> 
-  export default(
-  name = "BookList";
-  new data(){
-    return title = "All Books";
-  };
-  );
+  export default {
+    name: "BookList",
+    data() {
+      return {
+        title: 'All Books'
+      }
+    }
+  }
 </script>
 
 <style>
-  h1{
+  h1, h2{
     font-weight: normal;
   }
-  h2{
-    font-weight: normal;
-  }
+
 </style>
